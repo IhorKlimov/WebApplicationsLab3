@@ -1,3 +1,5 @@
+const httpRequest = new XMLHttpRequest();
+
 window.onload = function () {
     let borderColor = localStorage.getItem("borderColor");
     if (borderColor != null && borderColor.length > 0) {
@@ -104,4 +106,64 @@ function reverseString(str) {
         result += str[i];
     }
     return result;
+}
+
+function createDropdowns() {
+    let tabTitle = document.forms["dropdowns"]["tabTitle"].value;
+    let content = document.forms["dropdowns"]["dropdownContent"].value;
+    content = content.split(",");
+    for (let i = 0; i < content.length; i++) {
+        content[i] = content[i].trimStart();
+    }
+    console.log(tabTitle);
+    console.log(content);
+
+    const four = document.getElementById("four");
+
+    const div = document.createElement("div");
+    div.className = "dropdown";
+
+    let p = document.createElement("p");
+    p.appendChild(document.createTextNode(tabTitle));
+    p.className = "dropdown-title";
+    div.appendChild(p);
+
+    const dropdownContent = document.createElement("div");
+    dropdownContent.className = "dropdown-content";
+
+    const ul = document.createElement("ul");
+
+    for (let i = 0; i < content.length; i++) {
+        let li = document.createElement("li");
+        let a = document.createElement("a");
+        let text = document.createTextNode(content[i]);
+        a.appendChild(text);
+        li.appendChild(a);
+        ul.appendChild(li);
+    }
+
+    dropdownContent.appendChild(ul);
+    div.appendChild(dropdownContent);
+    four.appendChild(div);
+
+    if (!httpRequest) {
+        alert('Giving up :( Cannot create an XMLHTTP instance');
+        return false;
+    }
+    httpRequest.onreadystatechange = displayServerResult;
+    httpRequest.open('POST', 'saveDropdown');
+    httpRequest.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    httpRequest.send('title=' + tabTitle + '&content=' + content + '&html=' + div.outerHTML);
+
+    return false;
+}
+
+function displayServerResult() {
+    if (httpRequest.readyState === XMLHttpRequest.DONE) {
+        if (httpRequest.status === 200) {
+            console.log(httpRequest.responseText);
+        } else {
+            alert('There was a problem with the request.');
+        }
+    }
 }

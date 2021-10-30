@@ -14,21 +14,24 @@ form input, form button {
     visibility: hidden;
 }
 
-div button{
+div button {
     margin-top: 10px;
 }
 
-form button{
+form button {
     margin-top: 5px;
 }
 
 ul {
     list-style-type: none;
+}
+
+.one ul {
     overflow: hidden;
     margin-left: auto;
 }
 
-li {
+.one li {
     float: left;
 }
 
@@ -73,7 +76,7 @@ li a:hover {
     flex-direction: row;
 }
 
-.one, .two, .three, .four, .five, .six, .seven{
+.one, .two, .three, .four, .five, .six, .seven {
     border: 1px solid black;
 }
 
@@ -118,4 +121,40 @@ img {
 .seven h1 {
     margin-left: auto;
     text-align: end;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content ul {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown a {
+    color: black;
+}
+
+.dropdown-title:hover{
+    cursor: pointer;
+}
+
+.dropdown a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
