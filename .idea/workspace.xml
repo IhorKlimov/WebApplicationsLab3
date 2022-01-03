@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70055fa5-707b-43c3-89e1-e507fecc89ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WebApplicationsLab2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dropdown.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dropdown.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3_5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +60,9 @@
       <option name="presentableId" value="Default" />
       <updated>1635525139988</updated>
       <workItem from="1635525142868" duration="20011000" />
+      <workItem from="1640721250241" duration="170000" />
+      <workItem from="1641200604097" duration="133000" />
+      <workItem from="1641200864124" duration="300000" />
     </task>
     <servers />
   </component>
@@ -80,5 +79,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

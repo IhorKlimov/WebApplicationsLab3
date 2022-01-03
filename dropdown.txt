@@ -1,1 +1,1 @@
-title=Cool;content=One,Two,Three,Another,More items;;html=<div class="dropdown"><p class="dropdown-title">Cool</p><div class="dropdown-content"><ul><li><a>One</a></li><li><a>Two</a></li><li><a>Three</a></li><li><a>Another</a></li><li><a>More items</a></li></ul></div></div>;
+title=Hello2;content=demo;;html=<div class="dropdown"><p class="dropdown-title">Hello2</p><div class="dropdown-content"><ul><li><a>demo</a></li></ul></div></div>;

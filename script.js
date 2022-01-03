@@ -75,6 +75,9 @@ function changeBorderColors(color) {
     document.getElementsByClassName("five")[0].style.border = "1px solid " + color;
     document.getElementsByClassName("six")[0].style.border = "1px solid " + color;
     document.getElementsByClassName("seven")[0].style.border = "1px solid " + color;
+    for (let elementsByClassNameElement of document.getElementsByClassName("rectangle")) {
+        elementsByClassNameElement.style.border = "1px solid " + color;
+    }
 }
 
 function showFormInputs() {
